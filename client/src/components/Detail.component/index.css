@@ -1,0 +1,17 @@
+.detail_dialog{
+    padding: 2rem;
+}
+
+.detail_dialog .detail_dialog_title{
+    flex: 1;
+    -ms-flex: 1;
+}
+
+.detail_dialog .detail_dialog_paper{
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.detail_dialog .detail_dialog_paper .detail_dialog_submit{
+    flex:1;
+}

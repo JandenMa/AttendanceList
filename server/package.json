@@ -1,0 +1,23 @@
+{
+  "name": "attendance-list-server",
+  "version": "1.0.0",
+  "description": "Attendance List Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Janden.Ma",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.6",
+    "require-text": "0.0.1"
+  }
+}

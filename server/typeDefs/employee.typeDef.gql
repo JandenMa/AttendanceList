@@ -1,0 +1,20 @@
+type employee{
+    id: ID!,
+    firstName: String,
+    lastName: String,
+    email: String
+}
+
+input inputEmployee{
+    firstName: String,
+    lastName: String,
+    email: String
+}
+
+type Query{
+    getEmployees(key:String): [employee]
+}
+
+type Mutation{
+    saveEmployee(employee:inputEmployee!): employee
+}

@@ -1,0 +1,22 @@
+{
+    "MongoDB":{
+        "address":"ds042908.mlab.com",
+        "port":"42908",
+        "username":"root",
+        "password":"sa123456",
+        "dbname":"attendance"
+    },
+    "Cors": {
+        "Headers": [
+            "Access-Control-Allow-Origin",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type",
+            "CORELATION_ID"
+        ],
+        "Origin": [
+            "http://localhost:3000",
+            "http://localhost:8085"
+        ],
+        "Methods":["GET","POST","OPTIONS","PUT","DELETE"]
+    }
+}
