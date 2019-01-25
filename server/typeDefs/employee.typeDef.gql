@@ -6,6 +6,7 @@ type employee {
 }
 
 input inputEmployee {
+  id: String
   firstName: String
   lastName: String
   email: String

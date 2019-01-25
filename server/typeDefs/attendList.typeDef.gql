@@ -5,12 +5,11 @@ type AttendList {
 }
 
 input inputAttendList {
-  month: String
   attendances: [String]
 }
 
 type Query {
-  getAttendLists: [AttendList]
+  getAttendLists(id:String): [AttendList]
 }
 
 type Mutation {

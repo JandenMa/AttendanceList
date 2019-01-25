@@ -16,10 +16,12 @@ const saveAttendList = list => {
   });
 };
 
-const getAttendLists = () => {
+const getAttendLists = (id) => {
+  const condition = id?{id}:{};
+
   return new Promise(resolve => {
     model
-      .find()
+      .find(condition)
       .then(data => resolve(data))
       .catch(err => {
         console.log(err);
