@@ -7,8 +7,6 @@ import {
   TableHead,
   TableBody,
   TableRow,
-  TableFooter,
-  TablePagination,
   Checkbox,
   TextField,
   Toolbar,
@@ -252,9 +250,6 @@ export default class List extends Component {
             <TableRow>{this.renderHeadCell()}</TableRow>
           </TableHead>
           <TableBody>{this.renderBody()}</TableBody>
-          {/* <TableFooter>
-            <TablePagination page={1} rowsPerPage={10} />
-          </TableFooter> */}
         </Table>
         <Detail open={this.state.dialog_open} onRefresh={this.handleQuery} />
       </div>

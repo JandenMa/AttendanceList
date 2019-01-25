@@ -2,14 +2,13 @@ const controller = require("../controllers/attendList.controller");
 const moment = require("moment");
 
 const Query = {
-  getAttendLists: async (v,args) => {
-    return await controller.getAttendLists(args.id);
+  getAttendLists: async (v, { id }) => {
+    return await controller.getAttendLists(id);
   }
 };
 
 const Mutation = {
-  saveAttendList: async (v, args) => {
-    let { attendList } = args;
+  saveAttendList: async (v, { attendList }) => {
     console.log(attendList);
     attendList.id = `A${moment().format("YYYYMMDD")}`;
     attendList.month = moment().format("MMMDD");
