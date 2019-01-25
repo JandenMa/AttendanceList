@@ -1,21 +1,20 @@
-.list-box{
+.list-box {
     margin: 5rem auto 2rem auto;
     padding: 1rem;
 }
 
-.list-box .list-table{
-    margin-top: 1rem;
-    border:solid 1px #ccc;
+.list-box .list-table {
+    border: solid 1px #ccc;
 }
 
-.list-box .list-table .list-table-head{
+.list-box .list-table .list-table-head {
     background-color: #f2f2f2;
 }
 
-.list-box .list-table .list-table-body-row:nth-child(2n){
+.list-box .list-table .list-table-body-row:nth-child(2n) {
     background-color: #f8f8f8;
 }
 
-.list-box .list-table .list-table-body-row:hover{
+.list-box .list-table .list-table-body-row:hover {
     background-color: #afbdec30;
 }
