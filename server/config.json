@@ -1,10 +1,7 @@
 {
-    "MongoDB":{
-        "address":"ds042908.mlab.com",
-        "port":"42908",
-        "username":"root",
-        "password":"sa123456",
-        "dbname":"attendance"
+    "MongoDB": {
+        "address": "localhost:27017",
+        "dbname": "attendance"
     },
     "Cors": {
         "Headers": [
@@ -17,6 +14,6 @@
             "http://localhost:3000",
             "http://localhost:8085"
         ],
-        "Methods":["GET","POST","OPTIONS","PUT","DELETE"]
+        "Methods": ["GET", "POST", "OPTIONS", "PUT", "DELETE"]
     }
 }

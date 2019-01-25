@@ -1,18 +1,18 @@
-type AttendList{
-    id: ID!,
-    month: String,
-    attendances: [String]
+type AttendList {
+  id: ID!
+  month: String
+  attendances: [String]
 }
 
-input inputAttendList{
-    month: String,
-    attendances: [String] 
+input inputAttendList {
+  month: String
+  attendances: [String]
 }
 
-type Query{
-    getAttendLists: [AttendList]
+type Query {
+  getAttendLists: [AttendList]
 }
 
-type Mutation{
-    saveAttendList(attendList:inputAttendList): AttendList
+type Mutation {
+  saveAttendList(attendList: inputAttendList): AttendList
 }
